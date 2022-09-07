@@ -1,0 +1,121 @@
+body{
+    background-color: #F3F5FC;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logoImg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float:inherit;
+}
+.bg-1{
+    background: linear-gradient(to right, rgb(31, 35, 149), rgb(81, 99, 149));
+    height: 5vh;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.t-stroke {
+    color: transparent;
+
+    -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
+
+    -moz-text-stroke-color: #000000;
+    -webkit-text-stroke-color: #ffffff;
+}
+.t-shadow {
+    text-shadow: 7px 4px #117da4;
+}
+html{
+   font-size: 16px;
+ }
+ #hombre{
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+}
+ .munieco{
+    width: 100vw;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    height: 20rem;
+    color:#a6b4e9
+
+ }
+ .adivinado{
+    text-align: center;
+    color: #242d34;
+    font-size: 1.8rem;
+}
+.letra{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.adivinada{
+    width: 4.5rem;
+    height: 4.5rem;
+    border-bottom: solid 1px #002462;
+    margin-left: 0.4rem;
+    line-height: 4.5rem;
+}
+.errado{
+    text-align: center;
+    margin-top: 1rem;
+    color: #242d34;
+    margin-left: 1rem;
+}
+.errada{
+   margin-left: 1rem; 
+}
+[type="button"]{
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid 1px #0A3871;
+    color: #0A3871;
+    background: inherit;
+    cursor: pointer;
+}
+.boton-azul{
+    background-color: #0A3871;
+    color: #fff;
+    background-color: #black;
+
+}
+.botones{
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+h3{
+    text-align: center;
+    margin-top: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0A3871
+    
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-desistir
+{
+    width: 80%;
+    max-width: 230px;
+    height: 50px;
+    border: 1px solid #0A3871;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: #0A3871
+}
+
+.btn-desistir:hover
+{
+    cursor: pointer;
+}
